@@ -1,0 +1,239 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  height: 100vh;
+  display: flex;
+  background-color: #f0f0f0;
+}
+
+.seccion-contactos {
+  flex: 0 0 280px;
+  background-color: #ffffff;
+  border-right: 1px solid #e0e0e0;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.seccion-principal {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #fafafa;
+}
+
+.estado-usuario {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 14px;
+  border-bottom: 1px solid #eeeeee;
+}
+
+.datos-usuario {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+}
+
+.datos-usuario img {
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.datos-usuario .avatar-placeholder {
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  background-color: #b39ddb;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.datos-usuario .info-nombre {
+  display: flex;
+  flex-direction: column;
+}
+
+.datos-usuario .info-nombre span:first-child {
+  font-weight: 600;
+  font-size: 14px;
+  color: #222;
+}
+
+.datos-usuario .info-nombre span:last-child {
+  font-size: 11px;
+  color: #888;
+}
+
+.iconos-header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+}
+
+.iconos-header button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 4px;
+  color: #666;
+}
+
+.iconos-header button:hover {
+  color: #9c7ed4;
+}
+
+.iconos-header svg {
+  width: 20px;
+  height: 20px;
+}
+
+.seccion-nuevo-chat {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 14px;
+  border-bottom: 1px solid #eeeeee;
+}
+
+.btn-nuevo-chat {
+  width: 100%;
+  padding: 10px 0;
+  background-color: #b39ddb;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.btn-nuevo-chat:hover {
+  background-color: #9c7ed4;
+}
+
+.lista-contactos {
+  flex: 1;
+  overflow-y: auto;
+  list-style: none;
+}
+
+.lista-contactos li {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 14px;
+  cursor: pointer;
+  border-bottom: 1px solid #f5f5f5;
+  transition: background-color 0.15s;
+}
+
+.lista-contactos li:hover {
+  background-color: #f3eeff;
+}
+
+.contacto-avatar {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  object-fit: cover;
+  flex-shrink: 0;
+}
+
+.contacto-avatar-placeholder {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background-color: #ce93d8;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-weight: bold;
+  font-size: 15px;
+  flex-shrink: 0;
+}
+
+.contacto-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.contacto-info .nombre {
+  font-size: 14px;
+  font-weight: 600;
+  color: #333;
+}
+
+.contacto-info .preview {
+  font-size: 12px;
+  color: #999;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 180px;
+}
+
+.contenido-principal {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  text-align: center;
+  padding: 40px;
+}
+
+.icono-networking {
+  width: 120px;
+  height: 120px;
+  background-color: #d1c4e9;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.icono-networking svg {
+  width: 64px;
+  height: 64px;
+  color: white;
+  stroke: white;
+}
+
+.contenido-principal h2 {
+  font-size: 24px;
+  font-weight: 700;
+  color: #333;
+}
+
+.contenido-principal p {
+  font-size: 14px;
+  color: #888;
+  max-width: 340px;
+  line-height: 1.6;
+}
+
+.contenido-principal strong {
+  color: #555;
+}

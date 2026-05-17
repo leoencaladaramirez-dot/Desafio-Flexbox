@@ -56,7 +56,7 @@ body {
   width: 42px;
   height: 42px;
   border-radius: 50%;
-  background-color: #b39ddb;
+  background-color: #4e50ea;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -97,7 +97,7 @@ body {
 }
 
 .iconos-header button:hover {
-  color: #9c7ed4;
+  color: #793bec;
 }
 
 .iconos-header svg {
@@ -117,7 +117,7 @@ body {
 .btn-nuevo-chat {
   width: 100%;
   padding: 10px 0;
-  background-color: #b39ddb;
+  background-color: #6e35d9;
   color: white;
   border: none;
   border-radius: 8px;
@@ -128,7 +128,7 @@ body {
 }
 
 .btn-nuevo-chat:hover {
-  background-color: #9c7ed4;
+  background-color: #793cea;
 }
 
 .lista-contactos {
@@ -164,7 +164,7 @@ body {
   width: 44px;
   height: 44px;
   border-radius: 50%;
-  background-color: #ce93d8;
+  background-color: #5a3be6;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -207,7 +207,7 @@ body {
 .icono-networking {
   width: 120px;
   height: 120px;
-  background-color: #d1c4e9;
+  background-color: #4975ef;
   border-radius: 20px;
   display: flex;
   align-items: center;
